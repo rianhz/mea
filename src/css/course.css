@@ -1,0 +1,16 @@
+.course-wrapper {
+	width: 100%;
+	background-color: rgb(53, 52, 52);
+	padding-top: 70px;
+	position: relative;
+}
+
+.course-content {
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}

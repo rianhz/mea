@@ -1,0 +1,30 @@
+.video-wrapper {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.next-prev {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.next,
+.prev {
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: orange;
+	color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.next:hover,
+.prev:hover {
+	background-color: rgb(240, 186, 85);
+}

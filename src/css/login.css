@@ -1,0 +1,105 @@
+.login-container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-wrapper {
+	width: 800px;
+	display: flex;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 440px;
+}
+
+.left-content {
+	width: 400px;
+}
+.left-content img {
+	width: 100%;
+	height: 100%;
+}
+
+.right-content {
+	padding: 10px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.btn-wrapper {
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+.btn-wrapper span {
+	cursor: pointer;
+	width: 100%;
+	outline: none;
+	border-bottom: 1px solid transparent;
+}
+
+.btn-wrapper span.active {
+	border-bottom: 2px solid orange;
+}
+
+.ket {
+	text-align: center;
+	color: gray;
+}
+
+label {
+	display: block;
+}
+
+.form-wrapper {
+	width: 100%;
+}
+
+.input-wrapper {
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+input {
+	transition: all 0.5s ease;
+	border-radius: 10px;
+	width: 90%;
+	padding: 10px;
+	outline: 2px solid transparent;
+	border: 2px solid gray;
+}
+
+input:focus {
+	border: 2px solid rgb(68, 68, 187);
+}
+#lupa {
+	color: orange;
+	cursor: pointer;
+}
+#masuk {
+	display: block;
+	margin: 30px auto;
+	background-color: orange;
+	color: white;
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 15px;
+	border-radius: 15px;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+
+#masuk:hover {
+	background-color: rgb(149, 113, 48);
+}
